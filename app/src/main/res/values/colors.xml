@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heavy_pink">#f10075</color>
+    <color name="pink">#FF4081</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="title_blue">#191dd6</color>
+    <color name="black">#060606</color>
+    <color name="icon_blue">#5550e1</color>
+    <color name="heavy_icon_blue">#a81d009f</color>
+    <color name="white">#ffffff</color>
+</resources>

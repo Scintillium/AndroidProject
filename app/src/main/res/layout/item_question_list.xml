@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <thereisnospon.codeview.CodeView
+         android:id="@+id/title_question_list_item"
+         android:layout_width="match_parent"
+         android:textColor="@color/black"
+         android:textStyle="normal"
+         android:layout_height="wrap_content" />
+       <thereisnospon.codeview.CodeView
+           android:background="@color/black"
+           android:id="@+id/brief_question_list_item"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <android.support.v7.widget.RecyclerView
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentBottom="true"
+             android:layout_width="wrap_content"
+             android:id="@+id/recycler_item_question_list"
+             android:layout_height="wrap_content">
+
+         </android.support.v7.widget.RecyclerView>
+         <TextView
+             android:text="scores"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:id="@+id/score_question_list_item"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+     </RelativeLayout>
+ </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
